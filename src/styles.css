@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.heading{
+    color: black;
+    background-color: yellow;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    box-shadow: 8px 8px lightblue;
+}
+
+.bg {
+    background-image: url("./img/petr-magera-2hELuLQcEWU-unsplash.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; 
+}
+
+.navBar {
+    padding: 0.5em 0;
+    color: aquamarine;
+    display: flex; 
+    gap: 1.5em;     
+    justify-content: center; 
+    background-color: black; 
+}
+
+.navBar a {
+    text-decoration: none;
+    color: aquamarine;
+    font-weight: bold;
+}
+
+.navBar a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: aquamarine;
+    font-weight: bold;
+}
+
+.divdetails{
+    display: block;
+    width: 500px; /* Or a percentage */
+    margin: 0 auto; /* Or just margin: auto; */
+    text-align: center;
+
+}
